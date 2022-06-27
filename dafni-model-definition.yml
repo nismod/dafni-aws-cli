@@ -13,6 +13,7 @@ metadata:
     Users of this model must take care to create AWS credentials with
     appropriately limited permissions, and may wish to remove all access after
     use.
+  source_code: https://github.com/nismod/dafni-aws-cli
 spec:
   inputs:
     parameters:
