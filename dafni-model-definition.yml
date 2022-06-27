@@ -26,9 +26,9 @@ spec:
         title: AWS Access Key ID
         description: AWS Key ID, created for DAFNI access
         type: string
-        required: true
+        required: false
       - name: AWS_SECRET_ACCESS_KEY
         title: AWS Secret Access Key
         description: AWS secret key, created for DAFNI access
         type: string
-        required: true
+        required: false
