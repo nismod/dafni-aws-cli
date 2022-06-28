@@ -19,3 +19,6 @@ docker run -it \
 # Export to file for upload
 docker save nismod/dafni-aws-cli | gzip > dafni-aws-cli.tar.gz
 ```
+
+Example commands:
+- copy a bucket and all contents: `s3 cp s3://bucket-name /data/outputs/ --recursive"`
